@@ -2,8 +2,6 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/znq19/KiraAI_sticker_control_plugin)
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/znq19/KiraAI_sticker_control_plugin)
-
 该插件已整合至 KiraAI 官方 QQ 增强插件并得到开发者 @xxynet 更优秀的代码修改：https://github.com/xxynet/kira-ai-plugin-qq-enhance
 
 控制 AI 发送表情（注：是 sticker 而非 emoji）的频率和随机位置，并确保表情独立成行。
