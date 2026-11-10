@@ -1,4 +1,6 @@
-# KiraAI_sticker_control_plugin / 表情包发送频率和随机位置控制 1.2.0
+# KiraAI_sticker_control_plugin / 表情包发送频率和随机位置控制 1.2.1
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/znq19/KiraAI_sticker_control_plugin)
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/znq19/KiraAI_sticker_control_plugin)
 
@@ -10,10 +12,10 @@
 
 ## 行为说明（与 QQ 增强对齐）
 
-- 过滤纯 Reply 消息块（`len(chain)==1` 且为 Reply）。
+- 过滤纯 Reply 消息块。
 - 按概率保留 sticker，并从原链剥离后独立成行。
 - 去掉 sticker 后若只剩 Reply，则丢弃该空引用链。
-- 开启随机位置时：先分离表情链/非表情链，再随机插入；关闭时表情链紧跟对应原链顺序。
+- 开启随机位置时：在根标签分隔出的片段内随机插入；关闭时表情紧跟对应原消息顺序。
 
 ## WebUI 配置
 
